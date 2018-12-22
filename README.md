@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Users often contact Support to enquire about ways to backup emails sent to their clients for accounting and tracking purposes. Emails can be archived in Workflow v8.6.1+ using the SMTP Input Server. This implies that:
+Emails can be archived in Workflow v8.6.1+ using the SMTP Input Server. This implies that:
 •	The OL Connect Workflow SMTP Server service (or SMTP Server as listed in the Workflow Service Console) is started.
 •	Port 25 used by the local SMTP Server is open
 •	For archiving purposes, emails are sent using the localhost SMTP Server
@@ -51,5 +51,5 @@ As such to retrieve the EML file, the **_Load External File_** plugin can be use
 The output of this **_self-replicating_** process is the fully formatted xxxx.eml files, which can be open and viewed in Microsoft Outlook.
 
 ### Notes 
-Applies to Connect v1.8+
+Applies to Connect Workflow v8.6.1+
 
