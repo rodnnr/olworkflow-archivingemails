@@ -1,6 +1,6 @@
 <object data="https://github.com/rodnnr/olconnect-archivingemails/blob/master/HowTo-Archive%20Emails%20Using%20SMTP%20Input.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/rodnnr/olconnect-archivingemails/blob/master/HowTo-Archive%20Emails%20Using%20SMTP%20Input.pdf">
-        <p>Please download the guide  to view it: <a href="https://github.com/rodnnr/olconnect-archivingemails/blob/master/HowTo-Archive%20Emails%20Using%20SMTP%20Input.pdf">Download PDF</a>.</p>
+        <p>Please download the guide in PDF format: <a href="https://github.com/rodnnr/olconnect-archivingemails/blob/master/HowTo-Archive%20Emails%20Using%20SMTP%20Input.pdf">Download Archive Emails with PReS or PlanetPress Connect using SMTP Input</a>.</p>
     </embed>
 </object>
 
