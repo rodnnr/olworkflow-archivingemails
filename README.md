@@ -25,7 +25,8 @@ The SMTP Helper creates a minimum of three files with each emails received:
 
 This example only focuses on the archiving of emails. In this case, the SMTP Input data location is set to its Envelope. The received request file, in XML format, includes all email fields such as “ppemail”, “from”, “to”, “bcc”, “subject”, “body”, etc.
 
-    enter code here
+```cs
+    
     <?xml version="1.0" encoding="UTF-8"?>
     <ppemail rawemail="pps00ZXT5UU54VVY06FB2E9BC-raw.eml" timestamp="22/05/2017 13:25:10">
      <from name="info@mailserver.com" address="info@mailserver.com"/>
@@ -46,14 +47,14 @@ This example only focuses on the archiving of emails. In this case, the SMTP Inp
      Content-Transfer-Encoding=quoted-printable
      </header>
      </ppemail>
-
+```
 
 The request file does not include the full path for each of the file above-mentioned files; however, they can be retrieved using the **_%t%O_** variable to get their current temporary folder.
 
 As such to retrieve the EML file, the **_Load External File_** plugin can be used with the value of:
-
+```cs
     %t%O\xmlget('/ppemail[1]/@rawemail',Value,KeepCase,NoTrim)
-
+```
 The output of this **_self-replicating_** process is the fully formatted xxxx.eml files, which can be open and viewed in Microsoft Outlook.
 
 ### Notes 
